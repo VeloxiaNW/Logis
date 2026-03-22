@@ -24,7 +24,7 @@ tasks.test {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId = "com.github.VeloxiaNetwork"
+            groupId = "com.github.VeloxiaNW"
             artifactId = "Logis"
             version = "1.0.0"
 
