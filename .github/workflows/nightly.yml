@@ -26,6 +26,9 @@ jobs:
       - name: Gradle cache
         uses: gradle/actions/setup-gradle@v3
 
+      - name: Give gradle permission
+        run: chmod +x gradlew
+
       - name: Take build
         run: ./gradlew build
 
